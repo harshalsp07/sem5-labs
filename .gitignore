@@ -1,0 +1,37 @@
+# Environments and Dependencies
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# C / C++ build artifacts
+*.o
+*.obj
+*.out
+*.elf
+*.bin
+
+# Temporary folders
+nlp/Group Assignment 1/temp/
+
+# Benchmark duplicate test files (preserve original foo.pdf only)
+os/LAB-1/disk-files/foo*.pdf
+!os/LAB-1/disk-files/foo.pdf
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.directory
+.vscode/
+.idea/

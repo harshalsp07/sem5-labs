@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monopoly AI - Expectiminimax Game Engine</title>
+    <meta name="description" content="A state-of-the-art Monopoly board game where AI agents make intelligent buying, selling, and moving decisions using Expectiminimax game tree search." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Top Navigation Header -->
+      <header class="top-nav">
+        <div class="nav-left">
+          <div class="logo">
+            <span class="logo-icon">🎲</span>
+            <span class="logo-text">MONOPOLY <span class="accent-ai">AI</span></span>
+            <span class="badge-tag">EXPECTIMINIMAX</span>
+          </div>
+        </div>
+
+        <div class="nav-center">
+          <div class="mode-select-wrap">
+            <label>Mode:</label>
+            <select id="game-mode-select" class="nav-select">
+              <option value="human_vs_ai" selected>👤 Human vs AI</option>
+              <option value="ai_vs_ai">🤖 AI vs AI (Spectate)</option>
+              <option value="ai_4p">⚔️ 4-Agent AI Royale</option>
+            </select>
+          </div>
+
+          <div class="speed-controls">
+            <label>Speed:</label>
+            <div class="btn-group" id="speed-btn-group">
+              <button class="btn-toggle active" data-speed="1">1x</button>
+              <button class="btn-toggle" data-speed="2">2x</button>
+              <button class="btn-toggle" data-speed="5">5x</button>
+              <button class="btn-toggle" data-speed="20">Turbo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-right">
+          <!-- View Toggle: 3D vs 2D -->
+          <div class="view-toggles">
+            <button class="btn btn-outline active" id="btn-toggle-3d" title="Switch to 3D Board View">3D</button>
+            <button class="btn btn-outline" id="btn-toggle-2d" title="Switch to 2D Classic Grid">2D</button>
+          </div>
+
+          <!-- Camera presets -->
+          <div class="cam-toggles" id="cam-toggles-box">
+            <button class="btn btn-icon active" id="btn-cam-iso" title="Isometric 3D View">📐</button>
+            <button class="btn btn-icon" id="btn-cam-top" title="Top-Down View">🎯</button>
+          </div>
+
+          <!-- AI Training Studio Button -->
+          <button class="btn btn-accent" id="btn-open-trainer">
+            <span>🧬</span> AI Lab
+          </button>
+
+          <!-- Audio & Rules -->
+          <button class="btn btn-icon" id="btn-toggle-audio" title="Toggle Sound">🔊</button>
+          <button class="btn btn-icon" id="btn-rules" title="Game & AI Architecture Info">❓</button>
+          <button class="btn btn-danger-outline" id="btn-reset-game" title="Reset Match">↺ Reset</button>
+        </div>
+      </header>
+
+      <!-- Main Game Arena -->
+      <main class="game-arena">
+        <!-- Center Board Viewport -->
+        <section class="board-viewport">
+          <!-- 3D Three.js Container -->
+          <div id="three-container" class="board-canvas-layer"></div>
+
+          <!-- 2D CSS Grid Container (hidden by default) -->
+          <div id="twod-container" class="board-canvas-layer hidden"></div>
+
+          <!-- Floating AI Live Thought Stream -->
+          <div class="thought-stream-card">
+            <div class="thought-stream-header">
+              <span class="live-dot"></span>
+              <span class="stream-title">AI REASONING STREAM</span>
+            </div>
+            <div class="thought-stream-body" id="ai-thought-text">
+              AI evaluating optimal game tree moves based on balance, position, and property valuations...
+            </div>
+          </div>
+
+          <!-- Floating Action Control Bar -->
+          <div class="floating-controls">
+            <!-- Active Turn Banner -->
+            <div class="turn-banner" id="turn-banner"></div>
+
+            <div class="action-btn-row">
+              <button class="btn btn-primary btn-lg" id="btn-roll">
+                🎲 Roll Dice
+              </button>
+              <button class="btn btn-secondary" id="btn-end-turn" disabled>
+                ⏭ End Turn
+              </button>
+              <button class="btn btn-warning" id="btn-trade">
+                🤝 Trade
+              </button>
+            </div>
+          </div>
+
+          <!-- Human Buy Property Prompt Floating Banner -->
+          <div class="buy-prompt-card hidden" id="buy-prompt-box">
+            <div class="buy-prompt-title">Unowned Property Landed On!</div>
+            <div class="buy-prompt-name" id="buy-prompt-name">Boardwalk</div>
+            <div class="buy-prompt-price" id="buy-prompt-price">Price: $400</div>
+            <div class="buy-prompt-actions">
+              <button class="btn btn-success" id="btn-confirm-buy">💰 Buy Property</button>
+              <button class="btn btn-secondary" id="btn-decline-buy">Pass</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Right Side Panel: Player HUDs, Decision Tree, Log -->
+        <aside class="sidebar-panel">
+          <!-- Live Scoreboard -->
+          <div class="panel-section">
+            <div class="section-title">
+              <span>PLAYERS & NET WORTH</span>
+              <span class="target-badge" id="target-balance-badge">Target: $4,000</span>
+            </div>
+            <div class="players-list" id="players-list"></div>
+          </div>
+
+          <!-- Live Expectiminimax Game Tree Visualizer -->
+          <div class="panel-section tree-section">
+            <div class="section-title">
+              <span>AI DECISION TREE (MINIMAX)</span>
+              <span class="depth-badge">2-Ply Lookahead</span>
+            </div>
+            <div class="tree-canvas-wrap" id="tree-canvas-wrap"></div>
+          </div>
+
+          <!-- Activity Log Stream -->
+          <div class="panel-section log-section">
+            <div class="section-title">
+              <span>MATCH HISTORY</span>
+              <span class="status-indicator">LIVE</span>
+            </div>
+            <div class="game-log" id="game-log"></div>
+          </div>
+        </aside>
+      </main>
+
+      <!-- Property Title Deed Modal -->
+      <div class="modal-backdrop" id="deed-modal">
+        <div class="modal-panel deed-panel">
+          <button class="modal-close" id="btn-close-deed">&times;</button>
+          <div id="deed-content"></div>
+        </div>
+      </div>
+
+      <!-- Trade Modal Container -->
+      <div id="trade-modal-container"></div>
+
+      <!-- AI Training Studio Modal Container -->
+      <div id="trainer-modal-container"></div>
+
+      <!-- Game Over Modal -->
+      <div class="modal-backdrop" id="gameover-modal">
+        <div class="modal-panel gameover-panel">
+          <div id="gameover-content"></div>
+        </div>
+      </div>
+
+      <!-- Rules & Architecture Info Modal -->
+      <div class="modal-backdrop" id="rules-modal">
+        <div class="modal-panel rules-panel">
+          <div class="modal-header">
+            <h3>📖 Monopoly AI Architecture & Rules</h3>
+            <button class="modal-close" id="btn-close-rules">&times;</button>
+          </div>
+          <div class="rules-body">
+            <h4>🧠 Game Tree (Expectiminimax) AI Engine</h4>
+            <p>Monopoly is a stochastic game with alternating player choices (deterministic decision nodes) and random dice rolls (stochastic chance nodes). This project models decision-making with an <strong>Expectiminimax Game Tree</strong>:</p>
+            <ul>
+              <li><strong>MAX Nodes (AI Turn):</strong> The AI evaluates all available legal actions (Buy, Pass, Upgrade Houses, Mortgage, Unmortgage, Jail Release).</li>
+              <li><strong>CHANCE Nodes (Dice Rolls):</strong> Evaluates outcomes over all 11 possible roll values (2 through 12) weighted by binomial probability $P(d) = \frac{6 - |7 - d|}{36}$.</li>
+              <li><strong>MIN Nodes (Opponent Turns):</strong> Evaluates opponent counter-actions and future rent payments.</li>
+            </ul>
+
+            <h4>⚖️ State Evaluation Heuristic Function</h4>
+            <p>At the search horizon, states are scored using dynamic weighted features:</p>
+            <code>V(s) = w_cash · Cash + w_prop · PropertyEquity + w_mono · Monopolies + w_dev · HouseROI + w_inc · E[RentIncome] - w_haz · E[RentHazard]</code>
+            <p><strong>Dynamic Strategy Adaptation:</strong> Weights shift dynamically between <em>Early Game</em> (rapid expansion/land grab), <em>Mid Game</em> (monopoly completion & 3-house sweet spot), and <em>Late Game</em> (liquidity preservation & staying in jail to avoid high-rent hotels!).</p>
+
+            <h4>🏆 Win Conditions</h4>
+            <p>Win by reaching the <strong>Target Balance ($4,000)</strong> or by driving all opponents into <strong>Bankruptcy</strong> through lethal rent traps!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Toast Container -->
+      <div id="toast-container" class="toast-container"></div>
+    </div>
+
+    <!-- Script entry point -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

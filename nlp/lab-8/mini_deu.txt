@@ -1,0 +1,400 @@
+Go.	Geh.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hi.	Hallo!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Run!	Lauf!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Run.	Lauf!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wow!	Potzdonner!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Duck!	Kopf runter!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Fire!	Feuer!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Help!	Hilfe!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stay.	Bleib!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stop!	Stopp!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wait!	Warte!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wait.	Warte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Begin.	Fang an.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Do it.	Mache es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go on.	Mach weiter.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hello!	Hallo!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hello.	Hallo!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hurry!	Beeil dich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I ran.	Ich rannte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I see.	Ich verstehe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Oh no!	Oh, Nein!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Shoot!	Feuer!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Smile.	Lächeln!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Ask me.	Frag mich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Attack!	Angriff!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Buy it.	Kauf’s!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Cheers!	Zum Wohl!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Eat it.	Iss es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Eat up.	Iss fertig!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Exhale.	Ausatmen!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go now.	Geh jetzt!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Got it!	Verstanden!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Got it?	Kapiert?	CC-BY 2.0 (France) Attribution: tatoeba.org
+He ran.	Er rannte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hop in.	Mach mit!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hug me.	Drück mich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I fell.	Ich fiel.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I know.	Ich weiß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I paid.	Ich zahlte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I pass.	Ich passe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I quit.	Ich kündige.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I sang.	Ich sang.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I spit.	Ich spuckte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I swim.	Ich schwimme.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I wept.	Ich weinte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm 19.	Ich bin 19.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm up.	Ich bin wach.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Inhale.	Einatmen!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Listen.	Hört zu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+No way!	Unmöglich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Really?	Wirklich?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Thanks!	Danke!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Thanks.	Danke!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Try it.	Versuch’s!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Why me?	Warum ich?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Ask Tom.	Frag Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Awesome!	Fantastisch!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be fair.	Sei fair!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be kind.	Sei nett!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be nice.	Sei nett!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Beat it.	Geh weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Burn it.	Verbrenne es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Bury it.	Vergrabe es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Call me.	Ruf mich an.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come in.	Komm herein.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come on!	Komm!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come on.	Komm schon!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Feed us.	Füttere uns!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get Tom.	Hol Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get out!	Raus!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get out.	Geh raus.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go away!	Geh weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go away.	Geh weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go home.	Geh heim.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Goodbye!	Leb wohl!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hang on.	Warte!	CC-BY 2.0 (France) Attribution: tatoeba.org
+He came.	Er kam.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He runs.	Er rennt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Help me.	Hilf mir.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Help us.	Hilf uns!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hi, Tom.	Hallo, Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hit Tom.	Schlage Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hold it!	Warte!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hold it.	Bleib stehen!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hug Tom.	Umarme Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I cried.	Ich weinte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I drove.	Ich fuhr!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I froze.	Ich fror.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I swore.	Ich schwur.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I waved.	Ich winkte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'll go.	Ich gehe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm fat.	Ich bin fett.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm hot.	Mir ist heiß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm new.	Ich bin neu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm old.	Ich bin alt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm wet.	Ich bin nass.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's me!	Ich bin’s.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's me.	Ich bin’s.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Join us.	Komm mit.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep it.	Behalt es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Kill it.	Töte es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Kiss me.	Küsst mich.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Lie low.	Leg dich hin!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Me, too.	Ich auch.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Open it.	Öffne es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Open up.	Mach auf!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Perfect!	Perfekt!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Pull it.	Zieh dran.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Push it.	Drück drauf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Say aah.	Sag „Ah!“	CC-BY 2.0 (France) Attribution: tatoeba.org
+See you!	Tschüss!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Show me.	Zeig's mir!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Shut up!	Halt’s Maul!	CC-BY 2.0 (France) Attribution: tatoeba.org
+So long.	Bis später!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stop it.	Hör auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Take it.	Nimm es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tell me.	Sag es mir.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom ate.	Tom aß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom ran.	Tom rannte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wait up.	Warte mal!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wake up!	Wach auf!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wake up.	Wach auf!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Wash up.	Wasch dich.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Welcome.	Willkommen!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who ate?	Wer aß?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who ran?	Wer rannte?	CC-BY 2.0 (France) Attribution: tatoeba.org
+You run.	Du läufst.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Am I fat?	Bin ich dick?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Ask them.	Frag sie.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be a man.	Sei ein Mann!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be brave.	Sei mutig!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be quiet.	Sei leise.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be still.	Sei ruhig.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Call Tom.	Ruf Tom an!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Catch me.	Fang mich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Cheer up!	Kopf hoch!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Cool off!	Reg dich ab!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Don't go.	Geh nicht.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Drive on.	Fahr weiter.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Find Tom.	Finde Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Fire Tom.	Feuert Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Fix this.	Behebe das.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get away!	Geh weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get down!	Runter!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get down.	Komm runter.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Get lost!	Geh weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go ahead!	Nur zu!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go ahead.	Mach weiter!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go there.	Geh da hin!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Grab Tom.	Hol Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Have fun.	Viel Spaß!	CC-BY 2.0 (France) Attribution: tatoeba.org
+He spoke.	Er sprach.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He's Tom.	Er ist Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Help Tom.	Hilf Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+How cute!	Wie süß!	CC-BY 2.0 (France) Attribution: tatoeba.org
+How deep?	Wie tief?	CC-BY 2.0 (France) Attribution: tatoeba.org
+How nice!	Wie schön!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hurry up.	Beeil dich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I cursed.	Ich fluchte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I gamble.	Ich spiele.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I get it.	Ich verstehe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I got it.	Ich hab's.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I had it.	Ich hatte es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I helped.	Ich half.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I moaned.	Ich stöhnte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I nodded.	Ich nickte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I paused.	Ich hielt an.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I prayed.	Ich betete.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I rested.	Ich rastete.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I smiled.	Ich lächelte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I stayed.	Ich blieb.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I yawned.	Ich gähnte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'd jump.	Ich spränge.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm a DJ.	Ich bin DJ.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm cool.	Ich bin cool.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm deaf.	Ich bin taub.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm free.	Ich bin frei.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm full.	Ich bin satt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm here.	Ich bin hier.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm tall.	Ich bin groß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm thin.	Ich bin dünn.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It helps.	Das hilft.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It hurts.	Es tut weh.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It works.	Es klappt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's Tom.	Es ist Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's bad.	Das ist mies.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's big.	Sie ist groß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's his.	Es ist seins.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's hot.	Es ist heiß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's new.	Es ist neu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's red.	Das ist rot.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's tea.	Das ist Tee.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep out.	Kein Zutritt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Kill Tom.	Töte Thomas!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Kiss Tom.	Küsse Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Leave us.	Geh weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Let's go!	Auf geht's!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Look out!	Vorsicht!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Marry me.	Heirate mich.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Nonsense!	Unsinn!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Save Tom.	Rette Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+She came.	Sie kam.	CC-BY 2.0 (France) Attribution: tatoeba.org
+She runs.	Sie rennt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Sit down!	Setz dich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Sit down.	Setz dich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stand up!	Steht auf!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stand up.	Steh auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Take Tom.	Nimm Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tell Tom.	Sag es Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Terrific!	Hervorragend!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom came.	Tom kam.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom died.	Tom starb.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom fell.	Tom fiel.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom left.	Tom ging.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom lied.	Tom log.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom lies.	Tom lügt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom sang.	Tom sang.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom swam.	Tom schwamm.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom went.	Tom ging.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom wept.	Tom weinte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom's up.	Tom ist auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Too late.	Zu spät.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Touch it.	Fass es an.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Trust me!	Vertraue mir!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Trust me.	Vertraue mir.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Try some.	Probier mal.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Try this.	Probier mal!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Visit us.	Besuche uns.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Warn Tom.	Warne Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Watch me.	Schau mir zu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Watch us.	Schau uns zu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+What for?	Wozu?	CC-BY 2.0 (France) Attribution: tatoeba.org
+What now?	Was jetzt?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who am I?	Wer bin ich?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who came?	Wer kam?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who fell?	Wer fiel?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who swam?	Wer schwamm?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Who's he?	Wer ist er?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Write me.	Schreib mir!	CC-BY 2.0 (France) Attribution: tatoeba.org
+After you.	Nach euch.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Am I dead?	Bin ich tot?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Am I nuts?	Spinne ich?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Amen, Tom.	Amen, Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Be seated.	Setz dich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Bless you.	Gesundheit.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Catch Tom.	Fang Tom!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Catch him.	Fang ihn.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come back.	Komm wieder!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come here.	Komm hierher.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come home.	Kommt heim!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come over.	Komm her!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Come soon.	Komm bald.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Dogs bark.	Hunde bellen.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Don't ask.	Frag nicht.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Don't cry.	Weine nicht!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Don't die.	Stirb nicht!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Don't lie.	Lüge nicht!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Don't run.	Lauf nicht.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Excuse me.	Verzeihung.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Excuse me?	Verzeihung?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Fantastic!	Fantastisch!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Feel this.	Fühl mal.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Follow me.	Folge mir.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Follow us.	Folge uns!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Forget it!	Vergiss es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Forget it.	Vergiss es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Forget me.	Vergiss mich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go for it.	Nur zu!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go get it.	Hol's dir!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go inside.	Geh rein!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Go to bed.	Geh schlafen.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Goodnight.	Gute Nacht.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Grab that.	Nimm das.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hands off.	Hände weg!	CC-BY 2.0 (France) Attribution: tatoeba.org
+He is ill.	Er ist krank.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He is old.	Er ist alt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He smiled.	Er lächelte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He's a DJ.	Er ist DJ.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He's good.	Er ist gut.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He's lazy.	Er ist träge.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He's rich.	Er ist reich.	CC-BY 2.0 (France) Attribution: tatoeba.org
+He's sexy.	Er ist sexy.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Here I am.	Hier bin ich.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Hold this.	Halt das!	CC-BY 2.0 (France) Attribution: tatoeba.org
+How awful!	Schrecklich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+How weird!	Wie seltsam!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I am here.	Ich bin hier.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I am tall.	Ich bin groß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I coughed.	Ich hustete.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I escaped.	Ich entkam.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I gave up.	Ich gab auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I giggled.	Ich kicherte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I give in.	Ich gebe auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I give up.	Ich gebe auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I hate it.	Ich hasse es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I have it.	Ich habe es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I hope so.	Ich hoffe es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I laughed.	Ich lachte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I love it!	Ich liebe es!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I love it.	Ich liebe es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I met Tom.	Ich traf Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I miss it.	Es fehlt mir.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I see Tom.	Ich sehe Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I shouted.	Ich schrie.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I sneezed.	Ich nieste.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I stopped.	Ich stoppte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I stutter.	Ich stottere.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I took it.	Ich nahm es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I want it.	Ich will es.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I was new.	Ich war neu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I will go.	Ich gehe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'll help.	Ich helfe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'll pass.	Ich passe.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm awake.	Ich bin wach.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm drunk.	Ich bin blau.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm happy.	Ich bin froh.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm lying.	Ich lüge.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm obese.	Ich bin fett.	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm tired.	Ich bin müde!	CC-BY 2.0 (France) Attribution: tatoeba.org
+I'm tough.	Ich bin zäh.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is Tom OK?	Ist Tom okay?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is Tom in?	Ist Tom da?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is he Tom?	Ist das Tom?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is it Tom?	Ist das Tom?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is it far?	Ist das weit?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is it hot?	Ist es heiß?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is it new?	Ist es neu?	CC-BY 2.0 (France) Attribution: tatoeba.org
+Is it red?	Ist es rot?	CC-BY 2.0 (France) Attribution: tatoeba.org
+It burned.	Es brannte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It poured.	Es schüttete.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's cold.	Es ist kalt.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's cool.	Es ist kühl.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's free.	Es ist frei.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's full.	Es ist voll.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's gone.	Es ist weg.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's hard.	Das ist hart.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's here.	Es ist hier.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's late.	Es ist spät.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's mine.	Es ist meins.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's open.	Er hat auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's sand.	Es ist Sand.	CC-BY 2.0 (France) Attribution: tatoeba.org
+It's true.	Es ist wahr.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep away.	Bleib weg.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep calm.	Bleib ruhig.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep down.	Bleib unten.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep that.	Behalt’s!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep them.	Behalte sie.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Keep this.	Behalte das!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Kill them.	Töte sie!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Leave Tom.	Verlasse Tom.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Leave now.	Geh jetzt!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Let it be.	Lass es sein.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Let's see.	Lass sehen.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Listen up.	Hör zu.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Look away.	Schau weg.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Look down.	Guck runter.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Look here.	Schau hier.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Loosen it.	Dreh es auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Make room!	Mach Platz!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Nice shot!	Guter Schuss!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Of course!	Natürlich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Please go.	Bitte geh.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Put it on.	Setz es auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Say "aah."	Sag „Ah!“	CC-BY 2.0 (France) Attribution: tatoeba.org
+Say hello.	Sag Hallo.	CC-BY 2.0 (France) Attribution: tatoeba.org
+See below.	Siehe unten.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Seize him!	Fass ihn!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Seriously?	Wirklich?	CC-BY 2.0 (France) Attribution: tatoeba.org
+She cried.	Sie weinte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+She walks.	Sie geht.	CC-BY 2.0 (France) Attribution: tatoeba.org
+She's hot.	Sie ist heiß.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Sit still.	Sitz still.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Sit tight.	Harre aus!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stay calm.	Bleib ruhig.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stay cool.	Bleib ruhig.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stay down!	Bleib unten!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stay down.	Bleib unten!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stay thin.	Bleib dünn.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Step back.	Tritt zurück!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stop here.	Hör hier auf.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stop that!	Lass das!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Stop them.	Stopp sie.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Take care.	Mach's gut.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Take mine.	Nimm meins.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Take over.	Übernimm du.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Take this.	Nimm das.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Thank you.	Danke!	CC-BY 2.0 (France) Attribution: tatoeba.org
+That hurt.	Das tat weh.	CC-BY 2.0 (France) Attribution: tatoeba.org
+That's OK.	Das ist o.k.	CC-BY 2.0 (France) Attribution: tatoeba.org
+That's it.	Das war's.	CC-BY 2.0 (France) Attribution: tatoeba.org
+That's me.	Das bin ich!	CC-BY 2.0 (France) Attribution: tatoeba.org
+Then what?	Na und?	CC-BY 2.0 (France) Attribution: tatoeba.org
+They fell.	Sie fielen.	CC-BY 2.0 (France) Attribution: tatoeba.org
+They lost.	Sie verloren.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom cooks.	Tom kocht.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom cried.	Tom weinte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom dived.	Tom tauchte.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom dozed.	Tom döste.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom drove.	Tom fuhr.	CC-BY 2.0 (France) Attribution: tatoeba.org
+Tom is in.	Tom ist hier.	CC-BY 2.0 (France) Attribution: tatoeba.org

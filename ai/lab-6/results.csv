@@ -1,0 +1,10 @@
+Variables,Constraints,DFS Avg. Time (ms),Local Search Avg. Time (ms),Avg. Backtracks,Avg. Iterations,DFS Solution,Local Search Solution,DFS Avg. Assignments,LS Avg. Conflicts
+3,3,0.013,0.005,0.0,0.8,Yes,Yes,3.0,0.0
+5,7,0.024,0.013,0.0,4.1,Yes,Yes,5.0,0.0
+7,12,0.035,0.045,0.0,6.4,Yes,Yes,7.0,0.0
+10,18,0.08,0.049,0.0,11.2,Yes,Yes,10.0,0.0
+15,27,0.115,0.127,0.0,24.7,Yes,Yes,15.0,0.0
+20,36,0.183,27.868,0.0,5009.6,Yes,Yes,20.0,0.5
+30,54,0.392,7.377,0.0,1049.8,Yes,Yes,30.0,0.1
+40,72,0.701,89.628,0.0,10000.0,Yes,No,40.0,1.2
+50,90,1.649,85.211,5.0,8017.0,Yes,Yes,55.0,1.0

@@ -1,0 +1,429 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "NhOohhymoVNs"
+      },
+      "source": [
+        "# Lab Assignment: English-to-German Machine Translation with a Transformer\n",
+        "\n",
+        "**Objective:**\n",
+        "The goal of this assignment is to fine-tune a pre-trained **Transformer** model for machine translation. You will load a dataset, fine-tune the model, and evaluate it using the BLEU score.\n",
+        "\n",
+        "You will also compare your new model's performance and architecture against a previous **LSTM-based** model, and visualize the **self-attention** and **cross-attention** mechanisms that make the Transformer so powerful.\n"
+      ],
+      "id": "NhOohhymoVNs"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Fam13aZyoVN1"
+      },
+      "source": [
+        "## Part 1: Setup and Environment\n",
+        "\n",
+        "First, install all the necessary libraries."
+      ],
+      "id": "Fam13aZyoVN1"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "3k4D06hAoVN3"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "3k4D06hAoVN3"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5Hx2Z2DmoVN5"
+      },
+      "source": [
+        "## Part 2: Data Loading and Pre-processing\n",
+        "\n",
+        "### 1. Load the Dataset\n",
+        "We have to use previously provided dataset, which contains parallel sentences for English-to-German translation."
+      ],
+      "id": "5Hx2Z2DmoVN5"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "psehe5hAoVN6"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "psehe5hAoVN6"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "b0-osDp1oVN6"
+      },
+      "source": [
+        "### 2. Load Tokenizer and Model\n",
+        "We will use a pre-trained model from the Helsinki-NLP group, `opus-mt-en-de`, which is a lightweight and efficient Transformer specifically designed for English-to-German translation."
+      ],
+      "id": "b0-osDp1oVN6"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "X0sFbtS6oVN7"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "X0sFbtS6oVN7"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "MWiodxFSoVN9"
+      },
+      "source": [
+        "### 3. Pre-processing Function\n",
+        "We must tokenize both the English (input) and German (target) sentences. For seq2seq models, the tokenized target sentences are assigned to the `labels` key."
+      ],
+      "id": "MWiodxFSoVN9"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "TJdi60QloVN9"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "TJdi60QloVN9"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "-gqa4nDYoVN-"
+      },
+      "source": [
+        "### 4. Apply Pre-processing\n",
+        "Use the `.map()` function to apply this tokenization to the entire dataset."
+      ],
+      "id": "-gqa4nDYoVN-"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "6kOej18aoVN_"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "6kOej18aoVN_"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "UiYKs5TIoVN_"
+      },
+      "source": [
+        "## Part 3: Fine-Tuning the Model"
+      ],
+      "id": "UiYKs5TIoVN_"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "F4oe-auEoVN_"
+      },
+      "source": [
+        "### 1. Define Evaluation Metric (BLEU)\n",
+        "Machine translation is evaluated using the **BLEU score**. You can load the `sacrebleu` metric and create a `compute_metrics` function to use during training."
+      ],
+      "id": "F4oe-auEoVN_"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "MZUBLXnpoVOA"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "MZUBLXnpoVOA"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5DhrXoAGoVOA"
+      },
+      "source": [
+        "### 2. Configure Training\n",
+        "We will use the `Seq2SeqTrainer` and `Seq2SeqTrainingArguments` classes to manage the fine-tuning process."
+      ],
+      "id": "5DhrXoAGoVOA"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "4Ot6FLIuoVOB"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "4Ot6FLIuoVOB"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CDymZzkjoVOB"
+      },
+      "source": [
+        "### 3. Start Training\n"
+      ],
+      "id": "CDymZzkjoVOB"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "MeQFZHFFoVOB"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "MeQFZHFFoVOB"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HkeKMSM_oVOC"
+      },
+      "source": [
+        "### 4. Evaluate the Model\n",
+        "After training, run the final evaluation on the test set."
+      ],
+      "id": "HkeKMSM_oVOC"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "FZmTslU5oVOC"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "FZmTslU5oVOC"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WNoVEPC_oVOC"
+      },
+      "source": [
+        "## Part 4: Inference (Testing the Translator)\n",
+        "\n",
+        "Now use your fine-tuned model to translate new sentences using the `pipeline` utility."
+      ],
+      "id": "WNoVEPC_oVOC"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "a-vGhjZaoVOD"
+      },
+      "outputs": [],
+      "source": [
+        "# Test with new sentences\n",
+        "text1 = \"Hello, how are you doing today?\"\n",
+        "text2 = \"The transformer model is a powerful architecture for NLP.\"\n",
+        "text3 = \"This assignment is for my machine learning lab.\"\n"
+      ],
+      "id": "a-vGhjZaoVOD"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oQzZ2HWuoVOD"
+      },
+      "source": [
+        "## Part 5: Comparative Analysis (Transformer vs. LSTM)\n",
+        "\n",
+        "In this section, you will directly compare the output of your new Transformer model with the LSTM-based model from your previous lab.\n",
+        "\n",
+        "### 5.1. Test Sentences\n",
+        "Here is a list of 10 English sentences varying in length and complexity."
+      ],
+      "id": "oQzZ2HWuoVOD"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yUplYFRUoVOE"
+      },
+      "outputs": [],
+      "source": [
+        "test_sentences = [\n",
+        "    # 1. Simple sentence\n",
+        "    \"The cat sat on the mat.\",\n",
+        "\n",
+        "    # 2. Longer sentence\n",
+        "    \"I am going to the library to read a book.\",\n",
+        "\n",
+        "    # 3. Question\n",
+        "    \"What is your favorite color?\",\n",
+        "\n",
+        "    # 4. Long-range dependency\n",
+        "    \"The man who lives down the street just bought a new car.\",\n",
+        "\n",
+        "    # 5. Figurative language (often difficult)\n",
+        "    \"It's raining cats and dogs outside.\",\n",
+        "\n",
+        "    # 6. Technical term\n",
+        "    \"The machine learning model was trained on a large dataset.\",\n",
+        "\n",
+        "    # 7. Command\n",
+        "    \"Please close the door when you leave.\",\n",
+        "\n",
+        "    # 8. Classic test sentence\n",
+        "    \"The quick brown fox jumps over the lazy dog.\",\n",
+        "\n",
+        "    # 9. Negation\n",
+        "    \"He did not want to go to the party.\",\n",
+        "\n",
+        "    # 10. Future tense\n",
+        "    \"We will travel to Germany next summer.\"\n",
+        "]\n"
+      ],
+      "id": "yUplYFRUoVOE"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "z6nk_0RQoVOE"
+      },
+      "source": [
+        "### 5.2. Translation and Comparison\n",
+        "\n",
+        "**Your Task:**\n",
+        "1.  **Generate Transformer Translations:** Run the code cell above to get the Transformer's translations.\n",
+        "2.  **Generate LSTM Translations:** Load your saved LSTM model and tokenizer from the previous lab. Use it to translate the same 10 above `test_sentences`.\n",
+        "3.  **Create Comparison Table:** **Double-click this text cell** to edit it. Fill in the table below with your models' outputs.\n",
+        "\n",
+        "| # | Original English | LSTM Translation (Previous Lab) | Transformer Translation (This Lab) |\n",
+        "|---|---|---|---|\n",
+        "| 1 | The cat sat on the mat. | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 2 | I am going to the library... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 3 | What is your favorite color?| *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 4 | The man who lives down... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 5 | It's raining cats and dogs... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 6 | The machine learning model...| *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 7 | Please close the door... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 8 | The quick brown fox... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 9 | He did not want to go... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |\n",
+        "| 10| We will travel to Germany... | *... (Your LSTM's output)* | *... (Your Transformer's output)* |"
+      ],
+      "id": "z6nk_0RQoVOE"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "87tieEGwoVOE"
+      },
+      "source": [
+        "## Part 6: Visualizing Attention Mechanisms\n",
+        "\n",
+        "The key difference between your LSTM model (which may have used basic *cross-attention*) and the Transformer is the Transformer's use of **self-attention**.\n",
+        "\n",
+        "* **Self-Attention (Encoder):** Lets the *input* words \"look at\" each other to build context.\n",
+        "* **Cross-Attention (Decoder):** Lets the *output* words \"look at\" the input words (this is what your LSTM model also did).\n",
+        "\n",
+        "### 1. Get Model Outputs for Visualization\n",
+        "We must load the model again from the saved path, this time telling it to `output_attentions`."
+      ],
+      "id": "87tieEGwoVOE"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "MCjUn8EaoVOF"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "MCjUn8EaoVOF"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bLhxNJnEoVOF"
+      },
+      "source": [
+        "### 2. Visualize Encoder Self-Attention (Input-to-Input)\n",
+        "This shows how the English sentence understands its own grammar.\n",
+        "\n",
+        "**Note:** In Colab, the visualization must be the *last thing* in the code cell to render properly."
+      ],
+      "id": "bLhxNJnEoVOF"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "LdwnS86ZoVOF"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "LdwnS86ZoVOF"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tzpYbkQ_oVOG"
+      },
+      "source": [
+        "### 3. Visualize Encoder-Decoder Cross-Attention (Target-to-Input)\n",
+        "This shows how the model translates, aligning German words to English words. This is the part analogous to your LSTM's attention."
+      ],
+      "id": "tzpYbkQ_oVOG"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "p8qz9sowoVOG"
+      },
+      "outputs": [],
+      "source": [],
+      "id": "p8qz9sowoVOG"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.10.12"
+    },
+    "colab": {
+      "provenance": [],
+      "gpuType": "T4"
+    },
+    "accelerator": "GPU"
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

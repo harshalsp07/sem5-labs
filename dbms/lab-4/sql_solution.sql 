@@ -1,0 +1,59 @@
+-- question no. 15 
+WITH ranked_products AS (
+    SELECT 
+        prod_id,
+        prod_name,
+        cat_id,
+        price,
+        RANK() OVER(
+            PARTITION BY cat_id
+            ORDER BY price DESC 
+        ) AS rnk 
+        FROM products 
+)
+SELECT
+    prod_id,
+    prod_name,
+    cat_id,
+    price,
+    rnk 
+FROM ranked_products 
+WHERE rnk <= 2; 
+
+-- question 16
+WITH MonthlyCounts AS (
+    SELECT strftime('%Y-%m', order_date) AS month, COUNT(*) AS order_count
+    FROM orders
+    GROUP BY month
+)
+SELECT month, order_count,
+       SUM(order_count) OVER (ORDER BY month) AS running_total
+FROM MonthlyCounts;
+
+-- qeustion 17
+WITH customerspend AS (
+    SELECT o.cust_id, SUM(oi.quantity * oi.unit_price ) AS total_spend 
+    FROM orders o
+    JOIN order_items oi ON o.order_id = oi.order_id
+    GROUP BY o.cust_id
+)    
+SELECT cust_id,total_spend,
+        RANK() OVER(ORDER BY total_spend DESC) AS spend_rank,(total_spend*100 / MAX(total_spend) OVER ()) AS pct_of_top_spender
+FROM customerspend;
+
+-- Q19 Create view 
+
+CREATE VIEW product_sales AS 
+SELECT p.prod_id, p.prod_name,
+    COALESCE(SUM(oi.quantity),0) AS units,
+    COALESCE(SUM(oi.quantity * oi.unit_price) , 0) AS revenue
+FROM products p 
+LEFT JOIN order_items oi ON oi.prod_id = p.prod_id
+GROUP BY p.prod_id, p.prod_name; 
+
+-- Q20 
+SELECT * FROM product_sales ORDER BY revenue DESC LIMIT 5; 
+
+-- Q21
+
+SELECT * FROM product_sales WHERE units = 0;

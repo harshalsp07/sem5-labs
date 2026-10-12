@@ -1,0 +1,6 @@
+# Build artifacts and binaries
+lexer
+lex.yy.c
+*.o
+*.out
+.DS_Store

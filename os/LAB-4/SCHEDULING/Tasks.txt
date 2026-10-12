@@ -1,0 +1,53 @@
+Task 1: Modify FCFS to implement Last-Come, First-Served (LCFS) instead.
+
+Instead of selecting the process with the earliest arrival time, select the READY process with the latest arrival time.
+
+
+Task 2: Modify the given SJF scheduler to implement Longest Job First (LJF).
+
+
+Task 3: Modify SRTF so that it prefers processes with remaining time ≤ 3.
+
+First search for READY processes with remaining_time <= 3.
+Among them, select the shortest.
+If none exist, perform normal SRTF.
+
+in main.c take example 
+
+add_process(&sim, 1, 0, 8, 2);
+add_process(&sim, 2, 1, 6, 1);
+add_process(&sim, 3, 2, 3, 3);
+add_process(&sim, 4, 3, 4, 2);
+
+Task 4: 
+
+Modify the existing Priority Scheduler to implement aging.
+
+The original rule is:
+
+Smaller priority number = higher priority.
+Select the READY process with the smallest priority.
+
+Add the following aging rule:
+
+Calculate how long each READY process has been waiting:
+
+waiting_time = current_time - arrival_time;
+
+For every 3 time units of waiting, improve its priority by 1:
+
+effective_priority = priority - waiting_time / 3;
+The effective priority must never be less than 1.
+Select the READY process with the smallest effective priority.
+Do not modify the original p->priority; calculate the effective priority temporarily.
+
+try this input in the main.c for this task, it will give the better result:
+
+add_process(&sim, 1, 0, 8, 1);
+add_process(&sim, 2, 1, 3, 4);
+add_process(&sim, 3, 2, 2, 5);
+add_process(&sim, 4, 3, 4, 3);
+
+Task 5: Run RR scheduler with different time quantum and observe the outputs.
+
+

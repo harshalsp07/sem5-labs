@@ -1,0 +1,4 @@
+Name: Harshal Patel
+Roll No: B24CS016
+Course: B.Tech. CSE 2028
+Subject: Operating System
